@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Revista Eletronica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+   
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+  
+    <link rel="stylesheet" href="css/animate.css" />
+  
+    <link rel="stylesheet" href="css/icomoon.css" />
+
+    <link rel="stylesheet" href="css/simple-line-icons.css" />
+
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" id="theme-switch" href="css/style.css" />
+
+
+    <style>
+      #colour-variations {
+        padding: 10px;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        width: 140px;
+        position: fixed;
+        left: 0;
+        top: 100px;
+        z-index: 999999;
+        background: #fff;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+        -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+      }
+      #colour-variations.sleep {
+        margin-left: -140px;
+      }
+      #colour-variations h3 {
+        text-align: center;
+        font-size: 11px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #777;
+        margin: 0 0 10px 0;
+        padding: 0;
+      }
+      #colour-variations ul,
+      #colour-variations ul li {
+        padding: 0;
+        margin: 0;
+      }
+      #colour-variations li {
+        list-style: none;
+        display: block;
+        margin-bottom: 5px !important;
+        float: left;
+        width: 100%;
+      }
+      #colour-variations li a {
+        width: 100%;
+        position: relative;
+        display: block;
+        overflow: hidden;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-transition: 0.4s;
+        -o-transition: 0.4s;
+        transition: 0.4s;
+      }
+      #colour-variations li a:hover {
+        opacity: 0.9;
+      }
+      #colour-variations li a > span {
+        width: 33.33%;
+        height: 20px;
+        float: left;
+        display: -moz-inline-stack;
+        display: inline-block;
+        zoom: 1;
+        *display: inline;
+      }
+
+      .option-toggle {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 5px;
+        margin-right: -30px;
+        width: 30px;
+        height: 30px;
+        background: #f64662;
+        text-align: center;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        color: #fff;
+        cursor: pointer;
+        -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+        -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+      }
+      .option-toggle i {
+        top: 2px;
+        position: relative;
+      }
+      .option-toggle:hover,
+      .option-toggle:focus,
+      .option-toggle:active {
+        color: #fff;
+        text-decoration: none;
+        outline: none;
+      }
+    </style>
+
+    <script src="js/modernizr-2.6.2.min.js"></script>
+  </head>
+  <body>
+    <header role="banner" id="fh5co-header">
+      <div class="container">
+
+        <nav class="navbar navbar-default">
+          <div class="navbar-header">
+
+            <a
+              href="#"
+              class="js-fh5co-nav-toggle fh5co-nav-toggle"
+              data-toggle="collapse"
+              data-target="#navbar"
+              aria-expanded="false"
+              aria-controls="navbar"
+              ><i></i
+            ></a>
+            <a class="navbar-brand" href="index.html">Revista Eletrônica</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active">
+                <a href="#" data-nav-section="home"><span>Inicio</span></a>
+              </li>
+              <li>
+                <a href="#" data-nav-section="testimonials"><span>História</span></a>
+              </li>
+              <li>
+                <a href="#" data-nav-section="intro"
+                  ><span>Sobre</span></a
+                >
+              </li>
+			  <li>
+                <a href="#" data-nav-section="inclusao"
+                  ><span>Inclusão</span></a
+                >
+              </li>
+			  <li>
+			  <a href="#" data-nav-section="conclusao"
+			  ><span>Conclusão</span></a
+			>
+		  </li>
+      <li>
+        <a href="#" data-nav-section="bibliografia"
+          ><span>Bibliografia</span></a
+        >
+      </li>
+            </ul>
+          </div>
+        </nav>
+
+      </div>
+    </header>
+
+    <section
+      id="fh5co-home"
+      data-section="home"
+      style="background-image: url(images/libras1.jpg)"
+      data-stellar-background-ratio="0.3"
+    >
+      <div class="gradient"></div>
+      <div class="container">
+        <div class="text-wrap">
+          <div class="text-inner">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <h1 class="to-animate">Acessibilidade para Surdos: Tecnologias, Lei & Inclusão</h1>
+                <h2 class="to-animate">
+A importância das Libras na inclusão
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slant"></div>
+    </section>
+
+    <section id="fh5co-testimonials" data-section="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 section-heading text-center">
+            <h2 class="to-animate">História</h2>
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                <p>
+					A história da nossa língua de sinais se mistura com a história dos surdos no Brasil. 
+					Até o século XV os surdos eram mundialmente considerados como ineducáveis. A partir do século XVI,
+					 com mudanças nessa visão acontecendo na Europa, essa ideia foi sendo deixada de lado. Teve início 
+					 a luta pela educação dos surdos, na qual ficou marcada a atuação de um surdo francês, chamado Eduard Huet. 
+					 Em 1857, Huet veio ao Brasil a convite de D. Pedro II para fundar a primeira escola para surdos do país,
+					  chamada na época de Imperial Instituto de Surdos Mudos. Com o passar do tempo, o termo “surdo-mudo” saiu 
+					  de uso por ser incorreto, mas a escola seguiu forte e funciona 
+					  até hoje, com o nome de Instituto Nacional de Educação de Surdos – o famoso INES.
+				</p>
+				<p>A Libras foi criada, então, junto com o INES, a partir de uma mistura entre a Língua Francesa de Sinais e de sinais já utilizados pelos surdos brasileiros. Ela foi ganhando espaço pouco a pouco, mas sofreu uma grande derrota em 1880. Um congresso sobre surdez em Milão proibiu o uso das línguas de sinais no mundo, acreditando que a leitura labial era a melhor forma de comunicação para os surdos. Isso não fez com que eles parassem de se comunicar por sinais, mas atrasou a difusão da língua no país.</p>
+              <p>Com a persistência do uso e uma crescente busca por legitimidade da Língua de Sinais, a Libras voltou a ser aceita. A luta pelo reconhecimento da língua, no entanto, não parou. Em 1993 uma nova batalha começou, com um projeto de lei que buscava regulamentar o idioma no país. Quase dez anos depois, em 2002, a Língua Brasileira de Sinais foi finalmente reconhecida como uma língua no Brasil.</p>
+			</div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+        </div>
+      </div>
+    </section>
+
+    <section id="fh5co-work" data-section="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 section-heading text-center">
+            <h2 class="to-animate">Sobre</h2>
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                <h3>					LIBRAS é a sigla de Língua Brasileira de Sinais, um conjunto de formas gestuais utilizado por deficientes auditivos para a comunicação entre eles e outras pessoas, sejam elas surdas ou ouvintes.
+
+                  Ela tem sua origem baseada na linguagem de sinais francesa e é um dos conjuntos de sinais existentes no mundo inteiro com o propósito de realizar a comunicação entre pessoas com deficiência auditiva.</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-bottom-padded-sm">
+          <div class="col-md-4 col-sm-6 col-xxs-12">
+            <a href="images/fevereiro.png" class="fh5co-project-item image-popup to-animate">
+              <img src="images/fevereiro.png" alt="Image" class="img-responsive">
+              <div class="fh5co-text">
+
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xxs-12">
+            <a href="images/sinal.jpg" class="fh5co-project-item image-popup to-animate">
+              <img src="images/sinal.jpg" alt="Image" class="img-responsive">
+              <div class="fh5co-text">
+              </div>
+            </a>
+          </div>
+  
+          <div class="clearfix visible-sm-block"></div>
+  
+          <div class="col-md-4 col-sm-6 col-xxs-12">
+            <a href="images/Social.png" class="fh5co-project-item image-popup to-animate">
+              <img src="images/Social.png" alt="Image" class="img-responsive">
+              <div class="fh5co-text">
+              </div>
+            </a>
+          </div>
+          
+          <div class="clearfix visible-sm-block"></div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="fh5co-intro" >
+      <div class="container">
+        <div class="row row-bottom-padded-lg">
+          <div 
+            class="fh5co-block to-animate"
+            style="background-image: url(images/img_8.jpg)"
+          >
+            <div class="overlay-darker"></div>
+            <div class="overlay"></div>
+            <div class="fh5co-text">
+              <i class="fh5co-intro-icon "></i>
+              <h2>Lei das libras</h2>
+              <p>
+				No Brasil, a Língua Brasileira de Sinais foi estabelecida através da lei nº 10.436/2002 como 
+				a língua oficial das pessoas surdas.
+              </p>
+			  A lei define que é obrigação dos governos garantir formas de incentivar o uso e a divulgação da Língua Brasileira de Sinais nas instituições públicas. A lei também tornou obrigatório o ensino de LIBRAS nos cursos de formação em Educação Especial, no ensino médio e no ensino superior. A regra se aplica para o sistema de educação federal, estadual e municipal.
+            </div>
+          </div>
+          <div
+            class="fh5co-block to-animate"
+            style="background-image: url(images/img_8.jpg)"
+          >
+            <div class="overlay-darker"></div>
+            <div class="overlay"></div>
+            <div class="fh5co-text">
+              <i class="fh5co-intro-icon "></i>
+              <h2>Os sinais das libras</h2>
+              <p>
+				Os sinais dessa linguagem surgem da combinação de movimentos da mão e de pontos de articulação, que são locais no próprio corpo humano ou no espaço onde os sinais são feitos. A linguagem também inclui o uso de expressões faciais e corporais. Desta forma, a Língua Brasileira de Sinais configura um sistema linguístico de transmissão de ideias e fatos.
+
+				Existem algumas particularidades da língua, que facilitam sua compreensão, como o fato dos verbos sempre se apresentarem no modo infinitivo e os pronomes pessoais não existirem. A existência dessas regras faz com o que o utilizador da língua sempre aponte a pessoa a quem se refere para ser melhor entendido.
+              </p>
+            </div>
+          </div>
+          <div
+            class="fh5co-block to-animate"
+            style="background-image: url(images/img_10.jpg)"
+          >
+            <div class="overlay-darker"></div>
+            <div class="overlay"></div>
+            <div class="fh5co-text">
+              <i class="fh5co-intro-icon "></i>
+              <h2>Comunicação por Libras</h2>
+              <p>
+				Cada país tem a sua própria estrutura de linguagem, que pode variar inclusive de região para região, dependendo da cultura do local e das expressões e regionalismos utilizados na linguagem comum.
+
+				Por isso, a Língua Brasileira de Sinais não funciona com a simples gestualização da língua portuguesa através do alfabeto. A comunicação ocorre por diferentes níveis linguísticos, através da interpretação e das relações entre os elementos que compõem uma frase.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row watch-video text-center to-animate">
+          <span>INCLUSÃO SOCIAL DE DEFICIENTES AUDITIVOS</span>
+
+          <a
+            href="https://www.youtube.com/watch?v=iG7pMyP4GMA"
+            class="popup-vimeo btn-video"
+            ><i class="icon-play2"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="fh5co-services" data-section="inclusao">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 section-heading text-left">
+            <h2 class="left-border to-animate">INCLUSÃO SOCIAL DE DEFICIENTES AUDITIVOS POR MEIO DE TECNOLOGIAS ASSISTIVAS</h2>
+            <div class="row">
+              <div class="col-md-8 subtext to-animate">
+                <h3>
+					Com a evolução das tecnologias a vida do ser humano tem melhorado significativamente, e os deficientes de modo geral estão sendo beneficiados por essa evolução. Atualmente o Brasil apesar das leis e das diversas políticas de inclusão social, ainda tem muito a melhorar na qualidade de vida oferecida aos deficientes, o presente artigo apresenta um estudo sobre como as Tecnologias da Informação e Comunicação podem influenciar na melhoria da qualidade de vida e inclusão social dos deficientes auditivos. Este trabalho institui como meta a realização de um estudo apontando como as Tecnologias de Informação (TI) estão se desenvolvendo de forma a promover a inclusão social dos deficientes auditivos, são destacados dois aplicativos que são utilizados para promover a comunicação entre ouvintes e deficientes auditivos são eles o Hand Talk e o ProDeaf, o embasamento teórico do artigo se estabelece através da realização de pesquisa bibliográfica em livros, artigos científicos e na internet.
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+            <i class="icon to-animate-2"></i>
+            <h3>Estatísticas</h3>
+            <p>
+				Aproximadamente 10,7 milhões de pessoas têm deficiência auditiva no Brasil. Quem nos traz esse número é uma pesquisa feita pelo Instituto Locomotiva em parceria com a Semana da Acessibilidade Surda. Das pessoas surdas, 2,3 milhões têm deficiência severa. 
+
+				<p>A pesquisa traz outros dados, como: o número de homens surdos é maior do que o de mulheres. Eles representam 54% e elas 46%. 
+				
+				<p>Outra informação importante é que 57% dos surdos têm mais de 60 anos de idade. Dessas pessoas, 9% nasceram com deficiência auditiva, enquanto 91% adquiriram ao longo da vida. Nesse segundo caso, 50% foi depois de 50 anos.  
+				
+				Do número total de pessoas com deficiência auditiva no Brasil, 87% não usam aparelho auditivo. 
+				
+				<p>Embora o número de surdos seja grande, infelizmente, a maioria dos espaços públicos e privados não estão preparados para se comunicar com eles. 
+				
+				<p>Essa falta de preparo não acaba aí. Em muitos casos, as pessoas surdas não têm a oportunidade de ocupar bom cargos profissionais ou até de conquistar um emprego porque as empresas não investem em acessibilidade para elas. 
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+            <i class="icon to-animate-2 "></i>
+            <h3>Lei da Acessibilidade nº 10.098</h3>
+            <p>
+				Em resumo, ela traz diversas normas que buscam dar condições de acesso, circulação e comunicação às pessoas com deficiência. Depois dela, outras leis complementares foram criadas. 
+            </p>
+          </div>
+
+          <div class="clearfix visible-sm-block"></div>
+
+          <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+            <i class="icon to-animate-2 "></i>
+            <h3> Lei 10.436</h3>
+            <p>
+				Ela apoia o uso e difusão da Língua Brasileira de Sinais – Libras – e também determina que instituições federais de ensino devem promover cursos de formação de Educação Especial, de Fonoaudiologia e de Magistério, em seus níveis médio e superior; e de ensino da Língua Brasileira de Sinais – Libras, como parte integrante dos Parâmetros Curriculares Nacionais – PCNs”.
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-6 fh5co-service to-animate">
+            <i class="icon to-animate-2 "></i>
+            <h3>Lei Nº 13.146</h3>
+            <p>
+				Criada em 2015, é conhecida como a Lei Brasileira de Inclusão e aborda direitos ao transporte, educação e saúde das pessoas com deficiência. Além disso, determina punições para quem descumprir as regras citadas. 
+
+				Há ainda a Lei de Cotas, que é de 1991 e aborda a inclusão de pessoas com deficiência no mercado de trabalho. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+		<section id="fh5co-about" data-section="conclusao">
+			<div class="container">
+			  <div class="row">
+				<div class="col-md-12 section-heading text-center">
+				  <h2 class="to-animate">Conclusão</h2>
+				  <div class="row">
+					<div class="col-md-8 col-md-offset-2 subtext to-animate">
+					  <p>
+						Aprender Libras é uma maneira de inclusão social de indivíduos com deficiência auditiva. 
+						Assim como todo brasileiro, os deficientes auditivos devem estar inseridos de toda e qualquer 
+						forma na vida em sociedade e uma das maneiras mais básicas de inclusão é por meio da linguagem.
+						<p>O uso do computador e da Internet inaugurou uma nova
+dimensão às suas possibilidades de comunicação, pois são tecnologias acessíveis
+visualmente. Se, para os ouvintes, elas abriram perspectivas que levaram a modificações
+profundas nos usos e costumes de toda a sociedade, para os surdos, essas mudanças podem
+ser ainda mais significativas.
+<p>As novas tecnologias revolucionam o mundo das comunicações e podem fazer
+	com que ele seja mais acolhedor para os surdos, permanecem grandes dificuldades quanto à
+	incorporação desses avanços a vida da maioria deles. </p>
+
+</p>
+
+             <h1>Professoras:</h1> 
+
+              <p>Amanda Lang
+              <p>Elaine Cristina Gomes Vidal
+            </p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+       
+      </div>
+    </section>
+
+    <section id="fh5co-contact" data-section="bibliografia">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 section-heading text-center">
+            <h2 class="to-animate">Bibliografia</h2>
+            <div class="row">
+              <div class="col-md-8 col-md-offset-3 subtext to-animate">
+                <h1>
+					<a class="navbar-brand" href="https://www.significados.com.br/libras/">Significados</a>
+					<a class="navbar-brand" href="https://www.handtalk.me/br/blog/historia-lingua-de-sinais/#:~:text=A%20origem%20da%20L%C3%ADngua%20Brasileira%20de%20Sinais&text=Teve%20in%C3%ADcio%20a%20luta%20pela,Imperial%20Instituto%20de%20Surdos%20Mudos.">Hand Talk</a>
+					<a class="navbar-brand" href="http://www.periodicos.letras.ufmg.br/index.php/anais_linguagem_tecnologia/article/view/12091">Periodicos</a>
+					<a class="navbar-brand" href="https://www.icom-libras.com.br/2021/06/22/acessibilidade-para-surdos/">Icom</a>
+					<a class="navbar-brand" href="https://www.libras.ufsc.br/colecaoLetrasLibras/eixoFormacaoPedagogico/educacaoDeSurdosENovasTecnologias/assets/719/TextoEduTecnologia1_Texto_base_Atualizado_1_.pdf">Libras</a>
+					<a class="navbar-brand" href="https://oregional.net/a-lingua-brasileira-de-sinais-libras-e-para-todos-brasileiros-117757">Regional</a>
+				</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" role="contentinfo">
+      <a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
+      <div class="container">
+        <div class="">
+          <div class="col-md-12 text-center">
+            <p>
+              <br/> &copy; By Amanda Alcanjo - RA: 320112103
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="js/jquery.min.js"></script>
+
+    <script src="js/jquery.easing.1.3.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/jquery.waypoints.min.js"></script>
+
+    <script src="js/jquery.stellar.min.js"></script>
+
+    <script src="js/jquery.countTo.js"></script>
+
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+    <script src="js/google_map.js"></script>
+
+    <script src="js/jquery.style.switcher.js"></script>
+    <script>
+      $(function () {
+        $("#colour-variations ul").styleSwitcher({
+          defaultThemeId: "theme-switch",
+          hasPreview: false,
+          cookie: {
+            expires: 30,
+            isManagingLoad: true,
+          },
+        });
+        $(".option-toggle").click(function () {
+          $("#colour-variations").toggleClass("sleep");
+        });
+      });
+    </script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
