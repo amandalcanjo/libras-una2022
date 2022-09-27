@@ -21,5 +21,4 @@
 <img align="centeer" alt="amanda-html" height="290" widht="290" src="https://user-images.githubusercontent.com/81193788/186457765-0f182693-30f9-4fcc-ab8c-c11feb39c8d0.jpg"/>
 
 ## Autor: 
-[![Amanda Alcanjo](https://img.shields.io/badge/amanda_alcanjo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amanda-alcanjo/)
-
+[Amanda Alcanjo](https://portfolio-amandalcanjo.netlify.app/)
