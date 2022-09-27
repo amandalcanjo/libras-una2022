@@ -10,6 +10,8 @@
 ## Tech/Framework Used
 * HTML
 * CSS
+* SCSS
+* Bootstrap
 * JavaScript
 * Web Components
 
